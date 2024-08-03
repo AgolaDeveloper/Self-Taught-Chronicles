@@ -1,1 +1,5 @@
 /*this is the styling sheet for tutorials file*/
+.container{
+    display: flex;
+    background-color: rgb(121, 102, 102);
+}
