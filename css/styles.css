@@ -1,5 +1,5 @@
 /*the styling sheet for the project*/
-code{
+code, .l1{
     background-color: rgba(77, 11, 11, 0.815);
     color: whitesmoke;
 }
