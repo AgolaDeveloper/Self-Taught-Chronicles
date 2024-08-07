@@ -1,4 +1,9 @@
 /*the styling sheet for the project*/
+
+body{
+    display: flex;
+    justify-content: center;
+}
 code{
     background-color: rgba(77, 11, 11, 0.815);
     color: whitesmoke;
