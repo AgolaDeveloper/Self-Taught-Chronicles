@@ -12,9 +12,11 @@ code{
 .l1{
     background-color: gray;
 }
-nav{
-    background-color: black;
-    color: aliceblue;
+nav ul{
     display: flex;
+    background-color: black;
+    border-bottom: "1px" "solid" "green";
+    color: rgb(198, 207, 216);
     justify-content: end;
+    height: 25px;
 }
