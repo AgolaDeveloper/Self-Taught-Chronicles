@@ -16,7 +16,19 @@ nav ul{
     display: flex;
     background-color: black;
     border-bottom: "1px" "solid" "green";
-    color: rgb(198, 207, 216);
-    justify-content: end;
+     justify-content: end;
     height: 25px;
 }
+
+/*this is styling for every list item that's a descendant of nav....
+we use descendant-combinator for a selector....
+all are flex items
+*/
+
+nav li{
+flex:auto;
+color: white;
+font-weight: bold;
+
+}
+
