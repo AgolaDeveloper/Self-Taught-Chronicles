@@ -1,5 +1,7 @@
 /*the styling sheet for the project*/
 
+ 
+
 code{
     background-color: rgba(77, 11, 11, 0.815);
     color: whitesmoke;
@@ -13,9 +15,8 @@ nav ul{
     background-color: black;
     border-bottom: "1px" "solid" "green";
      justify-content: end;
-    height: 25px;
-
-    justify-content: center;
+    height: 40px;
+    
 }
 
 /*this is styling for every list item that's a descendant of nav....
@@ -27,6 +28,7 @@ nav li{
 flex:auto;
 color: white;
 font-weight: bold;
+
 
 }
 
