@@ -20,29 +20,32 @@ code{
 .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
+    
     height: 100%;
+    margin: 5px;
     
  }
 
 /*every div that's direct child of container-div is a flex item
 ... their styling*/
 
-.container > div{
-flex: 1;
-
-}
+  .nav{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+ }
 
 .header{
+     
 background-color: rgb(224, 220, 220);
+flex: 1;
 }
 
-.main{
+.container > .main{
     background-color: blue;
-
+     flex: 10;
 }
-.footer{
+.container > .footer{
     background-color: rgb(32, 30, 30);
-
+flex: 1;
 }
