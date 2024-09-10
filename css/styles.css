@@ -7,19 +7,24 @@ code{
 
  /*basic styling for basic elements that cuts across*/
 
+ html,body{
+    height: 100%;
+ }
+
  div{
     padding: 2px;
     margin: 1px;
 }
 
 
-body{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
     height: 100%;
-}
+    
+ }
 
 /*every div that's direct child of container-div is a flex item
 ... their styling*/
@@ -29,5 +34,15 @@ flex: 1;
 
 }
 
+.header{
+background-color: rgb(224, 220, 220);
+}
 
+.main{
+    background-color: blue;
 
+}
+.footer{
+    background-color: rgb(32, 30, 30);
+
+}
