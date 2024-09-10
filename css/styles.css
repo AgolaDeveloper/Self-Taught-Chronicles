@@ -6,7 +6,12 @@ code{
 }
 
  /*basic styling for basic elements that cuts across*/
- 
+
 body, html{
     height: 100%;
+}
+
+div{
+    padding: 2px;
+    margin: 1px;
 }
