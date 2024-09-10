@@ -5,4 +5,8 @@ code{
     color: whitesmoke;
 }
 
+ /*basic styling for basic elements that cuts across*/
  
+body, html{
+    height: 100%;
+}
