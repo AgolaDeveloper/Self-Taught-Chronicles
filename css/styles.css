@@ -32,21 +32,34 @@ code{
   .nav{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     gap: 15px;
     list-style-type: none;
+    background-color: black;
+    height: 50px;
+    padding: 5px;
+    margin: 0;
  }
 
  .nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
+ }
+
+ .nav > .input{
+    height: auto;
+    color: white;
+    font-weight: bold;
+    margin-left: auto;
  }
 
 .header{
      
 background-color: rgb(224, 220, 220);
-flex: 1;
-}
+padding: 0;
+margin: 0;
+ }
 
 .container > .main{
     background-color: blue;
