@@ -57,15 +57,14 @@ code{
 .header{
      
 background-color: rgb(224, 220, 220);
-padding: 0;
-margin: 0;
+ 
  }
 
-.container > .main{
+  .main{
     background-color: blue;
-     flex: 10;
-}
-.container > .footer{
+ }
+  .footer{
     background-color: rgb(32, 30, 30);
-flex: 1;
-}
+    color: white;
+    text-align: center;
+ }
