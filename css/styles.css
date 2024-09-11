@@ -77,6 +77,7 @@ background-color: rgb(224, 220, 220);
    background-color: antiquewhite;
    color: black;
    padding: 5px;
+   border-radius: 10px;
  }
 
  .main .mainnav{
