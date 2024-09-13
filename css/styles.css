@@ -84,4 +84,10 @@ we only have 2 .box -grandchildren of .container*/
 
 /*distinct styling of the .box items*/
 
+/*.box that's direct child of .block#main*/
 
+.block#main > .box{
+  width: 400px;
+  margin: 0;
+  padding: 0;
+}
