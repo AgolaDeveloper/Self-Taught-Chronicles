@@ -43,7 +43,7 @@ code{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 
 }
 
@@ -81,4 +81,7 @@ we only have 2 .box -grandchildren of .container*/
   margin: 0;
   border: solid 1px rgb(53, 48, 48);
 }
+
+/*distinct styling of the .box items*/
+
 
