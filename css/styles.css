@@ -65,6 +65,13 @@ code{
   list-style-type: none;
  }
 
+ #navigation a,li{
+  text-decoration: none;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+ }
+
 .block#footer{
   flex-grow: 1;
   background-color: gainsboro;
