@@ -26,6 +26,19 @@ code{
 
  
 /*every div that's direct child of container-div is a flex item
-... their styling*/
+... of class .block... their styling: */
+
+.block{
+  padding: 5px;
+  margin-top: 3px;
+
+ }
+  
+ /*distinct styling for the .block divs*/
+
+.block.main{
+  flex: 6;
+  background-color: rgb(195, 236, 236);
 
   
+}
