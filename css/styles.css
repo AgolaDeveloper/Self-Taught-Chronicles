@@ -51,5 +51,10 @@ code{
 .block.header{
   flex: 2;
   background-color: rgb(78, 66, 66);
-  
+
+   /*it's a flex container too*/
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: stretch;
 }
