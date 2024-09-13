@@ -38,6 +38,8 @@ code{
 .block#main{
   flex-grow: 8;
   background-color: gainsboro;
+  border: 1px solid red;  
+
 
   /*it's a flex container too*/
   display: flex;
@@ -47,19 +49,27 @@ code{
 
 }
 
-.block#header{
+.block#navigation{
+  flex-grow: 0.5;
   background-color: gainsboro;
+  border: 1px solid red;  
 
-   /*it's a flex container too*/
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: stretch;
-}
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+
+  margin: 0;
+ 
+  list-style-type: none;
+ }
 
 .block#footer{
-  flex-grow: 1.5;
+  flex-grow: 1;
   background-color: gainsboro;
+  border: 1px solid red;  
+
 
   color: red;
   text-align: center;
@@ -96,3 +106,8 @@ we only have 2 .box -grandchildren of .container*/
   justify-content: center;
   align-items: center;
 }
+
+/*.box that's direct child of .block#header...
+
+& this is our nav-bar [horizontal]*/
+ 
