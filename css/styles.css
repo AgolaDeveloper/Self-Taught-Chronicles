@@ -45,5 +45,11 @@ code{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+
+}
+
+.block.header{
+  flex: 2;
+  background-color: rgb(78, 66, 66);
   
 }
