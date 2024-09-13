@@ -37,9 +37,8 @@ code{
  /*distinct styling for the .block divs*/
 
 .block#main{
-  flex-grow: 6;
-  background-color: rgb(195, 236, 236);
-
+  flex-grow: 8;
+ 
   /*it's a flex container too*/
   display: flex;
   flex-direction: row;
@@ -49,8 +48,7 @@ code{
 }
 
 .block#header{
-  flex-grow: 2;
-  background-color: rgb(78, 66, 66);
+    background-color: rgb(78, 66, 66);
 
    /*it's a flex container too*/
    display: flex;
@@ -60,8 +58,8 @@ code{
 }
 
 .block#footer{
-  flex-grow: 2;
-  background-color: rgb(54, 153, 153);
+  flex-grow: 1.5;
+   background-color: rgb(54, 153, 153);
 
   color: red;
   text-align: center;
