@@ -71,6 +71,14 @@ code{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
-
 }
+
+/*every div that's direct child of items .block are .box flex items
+... their styling: 
+we only have 2 .box -grandchildren of .container*/
+
+.box{
+  margin: 0;
+  border: solid 1px rgb(53, 48, 48);
+}
+
