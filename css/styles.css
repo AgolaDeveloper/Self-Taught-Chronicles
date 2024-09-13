@@ -48,7 +48,7 @@ code{
 }
 
 .block#header{
-    background-color: rgb(78, 66, 66);
+  background-color: gainsboro;
 
    /*it's a flex container too*/
    display: flex;
