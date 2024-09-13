@@ -30,15 +30,15 @@ code{
 
 .block{
   padding: 5px;
-  margin-top: 3px;
-
+ 
  }
   
  /*distinct styling for the .block divs*/
 
 .block#main{
   flex-grow: 8;
- 
+  background-color: gainsboro;
+
   /*it's a flex container too*/
   display: flex;
   flex-direction: row;
@@ -59,7 +59,7 @@ code{
 
 .block#footer{
   flex-grow: 1.5;
-   background-color: rgb(54, 153, 153);
+  background-color: gainsboro;
 
   color: red;
   text-align: center;
