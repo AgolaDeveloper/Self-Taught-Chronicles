@@ -7,27 +7,38 @@
 
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body class="l1">
-    <header>
-        <h1>LEARNING-LOGS</h1>
-        <!--navigation bar-->
-        <nav>
-            <ul type="none">
-                <li><a href="index.html" target="_self">HOME</a></li>
-                <li><a href="tutorials.html" target="_parent">TUTORIALS</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!--main section of the body-->
+<body>
+
+    <!--this is the great parent container in this page-->
+    <div class="container"> 
+     
+        <!--here is our nav-bar, a flex item ...
+        ....that's a flex container as well-->
+         <ul class="block"  id="nav">
+            <li><a href="index.html" target="_self">HOME</a></li>
+            <li><a href="tutorials.html" target="_parent">TUTORIALS</a></li>
+        </ul>
+        
+    <!--main section of the body...
+    ...2nd item of container
+    ...it's a flex container -->
+    <div class="block" id="main">
+
+     
     
-    <main>
-        <h2></h2>
-        <code>
+          
+         
         <ul type="none">
             <li><a href="logs/log1.html" target="_blank">Log 1: Structuring a Web Project</a></li>
             <li><a href="logs/log2.html" target="_blank">Log 2: Growing and Shrinking of Flex Items</a></li>
          </ul>
-        </code>
-    </main>
+    </div>
+
+    <!--here is our footer... the third flex item of parent container
+    ... it's a flex container as well-->
+    <div class="block" id="footer">
+
+    </div>
+    
 </body>
 </html>
