@@ -45,3 +45,21 @@ code{
 
     list-style-type: none;
 }
+
+
+
+
+/*styling the main section, second direct child of .container...
+...it's a flex container as well, to 2 .box div-children*/
+
+.block#main{
+    flex-grow: 8;
+    background-color: gainsboro;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+    gap: 0;
+}
