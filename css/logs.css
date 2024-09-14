@@ -30,3 +30,18 @@ code{
  .block{
     border: 1px solid red;  
 }
+
+/*distinctive styling of .block items, depending on their ids*/
+
+.block#nav{
+    flex-grow: 0.5;
+    background-color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+
+    list-style-type: none;
+}
