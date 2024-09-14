@@ -12,3 +12,18 @@ code{
  html,body{
     height: 100%;
  }
+
+ /*...........................................................
+ styling the .container and its .block direct children
+ */
+
+ .container{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+
+   padding: 0;
+    margin: 0;
+
+ }
