@@ -66,7 +66,13 @@ code{
 
 /*styling of .box items [.block#main direct div-items]*/ 
 
+.block#main > *{
+    border: 1px solid black;
+}
 
+ .box#content{
+    flex-grow: 2;
+}
 
 /*styling the footer section, 3rd direct child of .container...
 ...it's a flex container as well, to 1 direct,paragraph,  child*/
