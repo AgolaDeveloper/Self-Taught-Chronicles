@@ -14,7 +14,7 @@
      
         <!--here is our nav-bar, a flex item ...
         ....that's a flex container as well-->
-         <ul class="block"  id="nav">
+        <ul class="block"  id="nav">
             <li><a href="index.html" target="_self">HOME</a></li>
             <li><a href="tutorials.html" target="_parent">TUTORIALS</a></li>
         </ul>
@@ -22,18 +22,22 @@
     <!--main section of the body...
     ...2nd item of container
     ...it's a flex container -->
+
     <div class="block" id="main">
-
-     
+       
+        <div class="box" id="sideNav">
+             <ul>
+                 <li><a href="logs/log1.html" target="_blank">Log 1: Structuring a Web Project</a></li>
+                 <li><a href="logs/log2.html" target="_blank">Log 2: Growing and Shrinking of Flex Items</a></li>
+            </ul>
+        </div>
     
-          
-         
-        <ul type="none">
-            <li><a href="logs/log1.html" target="_blank">Log 1: Structuring a Web Project</a></li>
-            <li><a href="logs/log2.html" target="_blank">Log 2: Growing and Shrinking of Flex Items</a></li>
-         </ul>
-    </div>
+         <div class="box" id="content">
+            <h1>Here's the Main Content area</h1>
+         </div>
 
+
+ 
     <!--here is our footer... the third flex item of parent container
     ... it's a flex container as well-->
     <div class="block" id="footer">
