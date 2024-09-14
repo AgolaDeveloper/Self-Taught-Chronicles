@@ -23,7 +23,10 @@ code{
     align-items: stretch;
     gap: 0;
 
-   padding: 0;
+    padding: 0;
     margin: 0;
-
  }
+
+ .block{
+    border: 1px solid red;  
+}
