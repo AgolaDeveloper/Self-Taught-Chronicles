@@ -63,3 +63,21 @@ code{
 
     gap: 0;
 }
+
+/*styling of .box items [.block#main direct div-items]*/ 
+
+
+
+/*styling the footer section, 3rd direct child of .container...
+...it's a flex container as well, to 1 direct,paragraph,  child*/
+
+.block#footer{
+    flex-grow: 1;
+    background-color: gainsboro;
+    color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
