@@ -53,6 +53,9 @@ code{
   font-weight: bold;
 }
 
+#nav a:hover{
+    border-bottom: 2px solid white;
+}
 
 /*styling the main section, second direct child of .container...
 ...it's a flex container as well, to 2 .box div-children*/
