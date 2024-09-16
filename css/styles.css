@@ -76,6 +76,10 @@ code{
   border-bottom: 2px solid white;
  }
 
+ .input{
+  margin-left: auto;
+ }
+
 .block#footer{
   flex-grow: 1;
   background-color: gainsboro;
