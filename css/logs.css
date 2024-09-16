@@ -98,6 +98,12 @@ code{
     list-style-type: none;    
 }
 
+#sideNav a{
+    color: rgb(46, 46, 53);
+    text-decoration: none; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 
 /*styling the footer section, 3rd direct child of .container...
 ...it's a flex container as well, to 1 direct,paragraph,  child*/
