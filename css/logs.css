@@ -84,7 +84,19 @@ code{
 
 /*styling of vertical navbar in the .block#main */
 
+.box#sideNav{
+    margin: 0;
+    padding-top: 60px;
+    padding-right: 5px;
+    padding-left: 5px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+    list-style-type: none;    
+}
 
 
 /*styling the footer section, 3rd direct child of .container...
