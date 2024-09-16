@@ -46,7 +46,12 @@ code{
     list-style-type: none;
 }
 
-
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
 
 
 /*styling the main section, second direct child of .container...
